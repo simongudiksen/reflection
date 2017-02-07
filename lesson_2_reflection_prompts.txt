@@ -7,13 +7,19 @@ What happens when you initialize a repository? Why do you need to do it?
 commands:
     git init: makes folder able to produce commits (creates repository)
     git add: add files to the "staging area" so they are ready to be commited
+
     git status: gives the status of the working directory (the folder) and the staging area
+
     git commit: creates comit for files in staging area
 
     git diff: (with no argument) compares the working directory (new changes which has not been commited) to the staging area (how it looked before you made the changes), they have no id's
+
+    git diff --staged: compares stagin area with repository commited)
 
 How is the staging area different from the working directory and the repository? What value do you think it offers?
     working directory shows files normally (no commits), repository:
     staging area: files which is ready to be commited (git commit)
 
- what to write
+ notes:
+     when commiting a file, the file is still in staging area and working directory.
+     When changing something new in the file, it only changes in working directory, you have to add it again and commit it 
