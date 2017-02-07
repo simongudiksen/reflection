@@ -1,4 +1,14 @@
 What happens when you initialize a repository? Why do you need to do it?
     it makes the folder able make commits
 
-   
+commands:
+    git init: makes folder able to produce commits (creates repository)
+    git add: add files to the "staging area" so they are ready to be commited
+    git status: gives the status of the working directory (the folder) and the staging area
+    git commit: creates comit for files in staging area
+
+How is the staging area different from the working directory and the repository? What value do you think it offers?
+    working directory shows files normally (no commits), repository:
+    staging area: files which is ready to be commited (git commit)
+
+ somme canges
