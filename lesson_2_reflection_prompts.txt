@@ -1,3 +1,6 @@
+add what to do
+
+
 What happens when you initialize a repository? Why do you need to do it?
     it makes the folder able make commits
 
@@ -11,4 +14,4 @@ How is the staging area different from the working directory and the repository?
     working directory shows files normally (no commits), repository:
     staging area: files which is ready to be commited (git commit)
 
- somme canges
+ what to write
