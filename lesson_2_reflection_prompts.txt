@@ -10,7 +10,7 @@ commands:
 
     git status: gives the status of the working directory (the folder) and the staging area
 
-    git commit: creates comit for files in staging area
+    git commit -m "text": creates comit for files in staging area
 
     git diff: (with no argument) compares the working directory (new changes which has not been commited) to the staging area (how it looked before you made the changes), they have no id's
 
@@ -23,3 +23,27 @@ How is the staging area different from the working directory and the repository?
  notes:
      when commiting a file, the file is still in staging area and working directory.
      When changing something new in the file, it only changes in working directory, you have to add it again and commit it 
+
+     have to save before "add"
+
+     head means current commit
+
+branches:
+    git branch: shows the branches
+
+    git branch name: creates a new branch named name
+    
+    git checkout name: will make it possible to use that branch
+
+    git log --graph --oneline master coins: views log of master and coins branches
+
+    git checkout -b new_branch_name: creates a new branch and opens it 
+
+    git merge branch1 branch2 -m "text": merges to branches (need to be ckeckout in branch1)
+
+    git show ID: shows witch changes there is compared to its parent
+
+    git branch -d branch1: deletes branch1 
+
+
+is this sentence merging? please
