@@ -44,7 +44,3 @@ branches:
     git show ID: shows witch changes there is compared to its parent
 
     git branch -d branch1: deletes branch1 
-
-
-is this sentence merging? please
-.... and is this 
